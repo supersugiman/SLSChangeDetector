@@ -1,0 +1,15 @@
+[general]
+name=SLS Change Detector
+description=Deteksi perubahan geometri dan atribut 'subsls' antara dua file SLS (GeoPackage). Bandingkan berdasarkan 'idsls'. Export hasil ke CSV.
+version=1.1
+qgisMinimumVersion=3.16
+qgisMaximumVersion=3.99
+author=Sugiman + AI
+email=supersugiman@gmail.com
+homepage=https://github.com/Sugiman/SLSChangeDetector
+tracker=https://github.com/Sugiman/SLSChangeDetector/issues
+repository=https://github.com/Sugiman/SLSChangeDetector
+tags=sls, change detection, geopackage, comparison, polygon, attribute, csv
+category=Vector
+experimental=False
+deprecated=False

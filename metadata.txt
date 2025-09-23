@@ -11,5 +11,6 @@ tracker=https://github.com/Sugiman/SLSChangeDetector/issues
 repository=https://github.com/Sugiman/SLSChangeDetector
 tags=sls, change detection, geopackage, comparison, polygon, attribute, csv
 category=Vector
+icon=so3.ico
 experimental=False
 deprecated=False

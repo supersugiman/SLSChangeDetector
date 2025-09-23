@@ -1,5 +1,5 @@
 # sls_change_detector.py
-# Plugin QGIS untuk deteksi perubahan SLS — versi FINAL
+# Plugin QGIS untuk deteksi perubahan SLS antara dua file GeoPackage
 # - Berdasarkan ID (luas, subsls, penambahan/penghapusan)
 # - Berdasarkan Geometri (Symmetrical Difference)
 # - Ekspor gabungan ke satu file CSV
@@ -27,7 +27,7 @@ import csv
 class SLSChangeDetectorDialog(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("SLS Change Detector - FINAL VERSION")
+        self.setWindowTitle("SLS Change Detector - 1471")
         self.resize(1000, 800)
 
         self.changes_by_id = []      # Perubahan berdasarkan ID
@@ -476,7 +476,7 @@ class SLSChangeDetectorPlugin:
         icon_path = os.path.join(self.plugin_dir, 'icon.png')
         self.action = QAction(
             QIcon(icon_path) if os.path.exists(icon_path) else QIcon(),
-            "SLS Change Detector (Final)",
+            "SLS Change Detector (1471)",
             self.iface.mainWindow()
         )
         self.action.triggered.connect(self.run)
